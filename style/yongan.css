@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin:0 auto;
+    padding:0px;
+    font-family:Microsoft YaHei,"微软雅黑",Arial,Helvetica,sans-serif;
+}
+
+.middle{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.href{
+    text-align: center;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.qa{
+    padding-top: 10px;
+    max-width: 1000px;
+    /*background: #eeeeee;*/
+    /*border: 1px solid red;*/
+}
+
+.qa p{
+    /*width: 500px;*/
+    min-height: 70px;
+}
+
+.qa img{
+    float: left;
+    margin: 1px 5px 5px 1px
+}
+
+.image{
+     margin-top: 50px;
+    margin-left: 50px;
+    border: darkseagreen 2px dashed;
+ }
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.href{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.choice{
+    margin-left: 50px;
+}
+
+.two{
+    /*display: flex;*/
+    margin: 20px auto;
+    max-width: 1000px;
+    border: #eeeeee 5px solid;
+    min-height: 300px;
+}
+
+.three{
+    display: flex;
+    margin: 20px auto;
+    max-width: 1000px;
+    border: #eeeeee 5px solid;
+}
+
+.three2{
+    /*display: flex;*/
+    margin: 20px auto;
+    max-width: 1000px;
+    border: #eeeeee 5px solid;
+}
+
+.demo_line_05{
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #ddd;
+}
+.demo_line_05 span{
+    letter-spacing: 0;
+    color: #222;
+    margin:0 20px;
+}
+
+.two2{
+    /*display: flex;*/
+    margin: 20px auto;
+    max-width: 1000px;
+    border: #eeeeee 5px solid;
+    min-height: 150px;
+}
+
+.two3{
+    /*display: flex;*/
+    margin: 20px auto;
+    max-width: 1000px;
+    border: #eeeeee 5px solid;
+    min-height: 450px;
+}
+
+.block{
+    display: block;
+}
+
+.image2{
+    margin: 20px auto;
+    border: darkseagreen 2px dashed;
+}
