@@ -28,17 +28,17 @@
 	width:345px;
 	float:left;
 	height:76px;
-	background:url(../images/title.jpg) no-repeat;
+	/*background:url(../images/title.jpg) no-repeat;*/
 	}
 .headright{
 	width:500px;
 	height:76px;
-	float:right;
+	float:left;
     }
 .headtel{
 	width:300px;
 	height:76px;
-	background:url(../images/tel.jpg) no-repeat;
+	/*background:url(../images/tel.jpg) no-repeat;*/
 	float:left;
 	}
 .headbtn{
@@ -46,12 +46,12 @@
 	float:right;
 	}
 .bt1{
-	width:70px;
-	height:30px;
-	background:#6689D4;
+	width:500px;
+	height:40px;
+	/*background:#6689D4;*/
 	float:left;
-	color:#fff;
-	font-size:14px;
+	color:#000000;
+	font-size:20px;
 	text-align:center;
 	line-height:30px;
 	}
