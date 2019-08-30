@@ -7,15 +7,52 @@
 </head>
 <body>
 <div class="head">
-    <img src="images/jintang/1.jpg">
-    <p>中果脐橙第一乡</p>
-    <h2>三溪镇探秘</h2>
-    <img src="images/jintang/2.jpg">
+    <div id="head-image" class="left">
+        <img src="images/jintang/1.jpg">
+    </div>
+    <img src="images/jintang/2.jpg" class="right">
+    <div class="middle">
+        <h1>中果脐橙第一乡</h1>
+        <h2>三溪镇探秘</h2>
+    </div>
+</div>
+<div class="box">
+    <ul>
+        <li>
+            <button onclick="choose()">三溪概况</button>
+        </li>
+        <li><a href="news.asp">发展历史</a></li>
+        <li><a href="contact.asp">发展状况</a></li>
+        <li><a href="about.asp">面临问题</a></li>
+        <li><a href="about.asp">政府采访</a></li>
+    </ul>
+    <div class="two3">
+        <img src="images/jintang/3.jpg" class="left">
+        <div class="right">
+            <img src="images/jintang/4.jpg"><Br/>
+            <img src="images/jintang/5.jpg"><Br/>
+            <img src="images/jintang/6.jpg">
+        </div>
+        <p id="content-word">
+        </p>
+    </div>
 </div>
 <div class="content"></div>
 <div class="nav">
     <a href="#">你想知道的更多信息</a>
     <a href="#">如何在三溪变成一个有钱人</a>
 </div>
+<script>
+    var chosen = 1;
+    var text = document.getElementById("content-word");
+
+    function choose(c) {
+        switch (c) {
+            case 1:
+                text.innerText = "三溪镇位于金堂县东南部，因境内有3条溪河纵贯全境而得名，幅员面积56平方公里，辖9个行政村、2 个社区，总人口4.7万，其中农业人口4.3万。三溪自七十年代末开始引进种植优质脐橙，目前已是全国脐橙主产区之一，现有脐橙3万余亩，年产脐橙7万公斤，脐橙产品多次被评为省优、国优果品，1991年荣获全国菜篮子工程园林金杯奖；1995年荣获全国第二届农业博览会金杯奖，1996年三溪镇被中国柑桔研究所誉为“中国脐橙第一乡”。三溪镇属浅丘地带，海拔最高508米，最低440米，是全县城乡统筹综合示范镇、土地综合整治示范镇和现代农业与乡村旅游共生发展样板镇，依托中国脐橙之乡AAA级旅游景区建设，大力发展乡村旅游业，目前AAA级景区已成功通过国家验收，开创了我县A级旅游景区创建的先河。"
+                
+        }
+    }
+</script>
 </body>
 </html>

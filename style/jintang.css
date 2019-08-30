@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin:0 auto;
+    padding:0px;
+    font-family:Microsoft YaHei,"微软雅黑",Arial,Helvetica,sans-serif;
+}
+
+.head{
+    margin: 20px auto;
+    max-width: 1000px;
+    border: #4184BB 5px solid;
+    min-height: 150px;
+}
+
+#head-image{
+    display: inline;
+    width: 100px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.middle{
+    text-align: center;
+    margin: 10px auto;
+}
+
+.box{
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: darkgrey;
+    min-height: 150px;
+}
+
+ul{
+    list-style-type:none;
+    margin:0 auto;
+    padding:0;
+    text-align: center;
+}
+
+li
+{
+    display:inline;
+    margin: 0 50px;
+}
+
+.two3{
+    /*display: flex;*/
+    margin: 10px auto;
+    max-width: 1000px;
+    border: #eeeeee 5px solid;
+    min-height: 460px;
+}
+
+button{
+    background: none;
+    border: none;
+}
