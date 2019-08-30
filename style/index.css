@@ -84,10 +84,12 @@
 	background:#4184BB;
 	}
 .nav{
+	/*margin: 0 auto;*/
 	width:1200px;
 	height:45px;
 	}
 .navcontent{
+	padding-left: 25%;
 	width:1000px;
 	height:45px;
 	}
@@ -410,3 +412,8 @@ margin-top:20px;
 	height:200px;
 	background:url(../images/bg1.jpg) no-repeat;
 	}
+
+.middle{
+	text-align: center;
+	margin: 10px auto;
+}
