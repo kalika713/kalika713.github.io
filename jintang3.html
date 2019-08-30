@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>去农村</title>
+    <link rel="stylesheet" href="style/jintang.css"/>
+</head>
+<body>
+<div class="head">
+    <div id="head-image" class="left">
+        <img src="images/jintang/1.jpg">
+    </div>
+    <img src="images/jintang/9.jpg" class="right">
+    <h1 class="middle">如何致富</h1>
+    <h2 class="middle">德兴企业告诉你</h2>
+</div>
+<div class="box">
+    <ul>
+        <li>
+            <button onclick="choose(1)" id="b1">企业概况</button>
+        </li>
+        <li>
+            <button onclick="choose(2)" id="b2">面临问题</button>
+        </li>
+        <li>
+            <button onclick="choose(3)" id="b3">独家采访</button>
+        </li>
+        <li>
+            <button onclick="choose(4)" id="b4">成功关键</button>
+        </li>
+    </ul>
+    <div class="two3">
+        <img src="images/jintang/3.jpg" class="left">
+        <div class="right">
+            <img src="images/jintang/4.jpg"><Br/>
+            <img src="images/jintang/5.jpg"><Br/>
+            <img src="images/jintang/6.jpg">
+        </div>
+        <p id="content-word">
+        </p>
+    </div>
+</div>
+<div class="href">
+    <a href="jintang.html">三溪概况</a>
+</div>
+<div class="href">
+    <a href="jintang2.html">如何在三溪变成一个有钱人</a>
+</div>
+<script>
+    var color = 'lightskyblue';
+    var chosen_color = 'red';
+    var text = document.getElementById("content-word");
+    var b1 = document.getElementById("b1");
+    var b2 = document.getElementById("b2");
+    var b3 = document.getElementById("b3");
+    var b4 = document.getElementById("b4");
+    function choose(c) {
+        b1.style.backgroundColor = color;
+        b2.style.backgroundColor = color;
+        b3.style.backgroundColor = color;
+        b4.style.backgroundColor = color;
+
+        switch (c) {
+            case 1:
+                text.innerText = "金堂县德兴果业有限公司于2014年7月成立，是一家专门从事水果经营销售的农产品企业，公司集水果的种植、销售、存储、配送于一体。1988年公司董事长唐兴建在成都驷马桥水果批发市场建立唐氏果业，距今已专注水果行业30年，目前，公司在北京、上海、南京、济南、沈阳、贵阳等全国各大水果市场都建立了分部销售专区…";
+                b1.style.backgroundColor = chosen_color;
+                break;
+            case 2:
+                text.innerText = "发展概况：公司自营公众号“金堂德兴果业”用于介绍公司基本情况。“德兴”意为“以德兴业，做人讲德，自义自立，做事讲德，事业必兴。”主要以生产加工柑橘、石榴为主。共五个生产基地，运营正规、规范，与农科院有不紧密联系。主要的省外营销方式为在北京、上海、东北、山东等地进行农博会展销，以及农超对接等。因运输利用返工车，成本不大，故利润较高，一年的总营销额大概有四个多亿。但由于农产品的特殊性，受气候条件等自然因素的影响较大。而且农村的劳动力短缺，劳动人群逐渐老龄化。在向国外先进产业学习的过程中也发现美国的农业模式并不适合中国，我们要达到西方国家的水准还需要过程和时间。遇到的主要问题：\n" +
+                    "劳动力流失，老一辈的人越来越少，年轻人不愿意干农活。\n" +
+                    "资金问题，无法一步直接将果园现代化。大棚等的架设很耗钱，短期效益却不明显，只能一点一点推进。\n";
+                b2.style.backgroundColor = chosen_color;
+                break;
+            case 3:
+                text.innerText = "Q：是什么原因吸引企业在这里工作？\n" +
+                    "A：天时地利人和。百姓需要我们带动经济发展，地区适合果业的种植，我们和百姓相处融洽，很少会发生大的争执，可以说是得民心的企业。\n" +
+                    "Q:公司的发展模式？\n" +
+                    "A:讲究稳扎稳打，一步一个脚印，首先要做好硬件设施，其次要解决工资待遇问题，吸引年轻劳动力返乡。\n" +
+                    "Q:对于新品种怎么看？\n" +
+                    "A: 品种并不是越新越好，比如“春见”这个品种，最开始十年销售情况很差，经过改进后才得到大家的认可。事物是发展的，但新品种需要时间来验证，需要消费者的认可，不一定挣得到钱。\n" +
+                    "Q:是否有措施减少风险？\n" +
+                    "A: 做大棚，但需要前期资金投入，仅仅靠公司自己的能力是做不到的。\n" +
+                    "Q:政府是否给予一定支持？\n" +
+                    "A:在硬件设施上给了支持。\n";
+                b3.style.backgroundColor = chosen_color;
+                break;
+            case 4:
+                text.innerText = "企业成功的关键：\n" +
+                    "人和：\n" +
+                    "得民心，这里工作的农民都是老乡，带大家一起致富，有事情好商量。\n" +
+                    "企业诚信经营，以德兴业，口碑良好。\n" +
+                    "天时地利：\n" +
+                    "当地环境适合种植这些水果。\n" +
+                    "其他：果子品质抓得紧，质量过硬，卖得极好，了解市场需求，并会做出相应的推广。\n" +
+                    "现阶段努力方向：\n" +
+                    "打响品牌，扩大市场，提高经济效益，稳步发展，逐步投入资金，运用先进技术种植风险。想办法解决劳动力问题。\n";
+                b4.style.backgroundColor = chosen_color;
+                break;
+        }
+    }
+
+    choose(1);
+</script>
+</body>
+</html>

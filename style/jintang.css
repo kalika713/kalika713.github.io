@@ -36,7 +36,7 @@
 .box{
     margin: 20px auto;
     max-width: 1000px;
-    background-color: darkgrey;
+    background-color: lightskyblue;
     min-height: 150px;
 }
 
@@ -53,6 +53,26 @@ li
     margin: 0 50px;
 }
 
+#content-word{
+    font-size: 24px;
+    color: indianred;
+}
+
+#content-word2{
+    font-size: 20px;
+    border: 3px solid #eeeeee;
+    margin: 20px;
+    padding: 10px;
+}
+
+.two{
+    /*display: flex;*/
+    margin: 20px auto;
+    max-width: 1000px;
+    border: #eeeeee 5px solid;
+    min-height: 300px;
+}
+
 .two3{
     /*display: flex;*/
     margin: 10px auto;
@@ -64,4 +84,10 @@ li
 button{
     background: none;
     border: none;
+}
+
+.href{
+    text-align: center;
+    margin-top: 10px;
+    font-size: large;
 }

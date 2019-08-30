@@ -19,40 +19,85 @@
 <div class="box">
     <ul>
         <li>
-            <button onclick="choose()">三溪概况</button>
+            <button onclick="choose(1)" id="b1">三溪概况</button>
         </li>
-        <li><a href="news.asp">发展历史</a></li>
-        <li><a href="contact.asp">发展状况</a></li>
-        <li><a href="about.asp">面临问题</a></li>
-        <li><a href="about.asp">政府采访</a></li>
+        <li>
+            <button onclick="choose(2)" id="b2">发展历史</button>
+        </li>
+        <li>
+            <button onclick="choose(3)" id="b3">发展状况</button>
+        </li>
+        <li>
+            <button onclick="choose(4)" id="b4">面临问题</button>
+        </li>
+        <li>
+            <button onclick="choose(5)" id="b5">政府采访</button>
+        </li>
     </ul>
     <div class="two3">
         <img src="images/jintang/3.jpg" class="left">
         <div class="right">
             <img src="images/jintang/4.jpg"><Br/>
-            <img src="images/jintang/5.jpg"><Br/>
+            <img src="images/jintang/7.jpg"><Br/>
             <img src="images/jintang/6.jpg">
         </div>
         <p id="content-word">
         </p>
     </div>
 </div>
-<div class="content"></div>
-<div class="nav">
-    <a href="#">你想知道的更多信息</a>
-    <a href="#">如何在三溪变成一个有钱人</a>
+<div class="href">
+    <a href="jintang2.html">你想知道的更多信息</a>
+</div>
+<div class="href">
+    <a href="jintang3.html">如何在三溪变成一个有钱人</a>
 </div>
 <script>
-    var chosen = 1;
+    var color = 'lightskyblue';
+    var chosen_color = 'red';
     var text = document.getElementById("content-word");
-
+    var b1 = document.getElementById("b1");
+    var b2 = document.getElementById("b2");
+    var b3 = document.getElementById("b3");
+    var b4 = document.getElementById("b4");
+    var b5 = document.getElementById("b5");
     function choose(c) {
+        b1.style.backgroundColor = color;
+        b2.style.backgroundColor = color;
+        b3.style.backgroundColor = color;
+        b4.style.backgroundColor = color;
+        b5.style.backgroundColor = color;
+
         switch (c) {
             case 1:
-                text.innerText = "三溪镇位于金堂县东南部，因境内有3条溪河纵贯全境而得名，幅员面积56平方公里，辖9个行政村、2 个社区，总人口4.7万，其中农业人口4.3万。三溪自七十年代末开始引进种植优质脐橙，目前已是全国脐橙主产区之一，现有脐橙3万余亩，年产脐橙7万公斤，脐橙产品多次被评为省优、国优果品，1991年荣获全国菜篮子工程园林金杯奖；1995年荣获全国第二届农业博览会金杯奖，1996年三溪镇被中国柑桔研究所誉为“中国脐橙第一乡”。三溪镇属浅丘地带，海拔最高508米，最低440米，是全县城乡统筹综合示范镇、土地综合整治示范镇和现代农业与乡村旅游共生发展样板镇，依托中国脐橙之乡AAA级旅游景区建设，大力发展乡村旅游业，目前AAA级景区已成功通过国家验收，开创了我县A级旅游景区创建的先河。"
-                
+                text.innerText = "三溪镇位于金堂县东南部，因境内有3条溪河纵贯全境而得名，幅员面积56平方公里，辖9个行政村、2 个社区，总人口4.7万，其中农业人口4.3万。三溪自七十年代末开始引进种植优质脐橙，目前已是全国脐橙主产区之一，现有脐橙3万余亩，年产脐橙7万公斤，脐橙产品多次被评为省优、国优果品，1991年荣获全国菜篮子工程园林金杯奖；1995年荣获全国第二届农业博览会金杯奖，1996年三溪镇被中国柑桔研究所誉为“中国脐橙第一乡”。三溪镇属浅丘地带，海拔最高508米，最低440米，是全县城乡统筹综合示范镇、土地综合整治示范镇和现代农业与乡村旅游共生发展样板镇，依托中国脐橙之乡AAA级旅游景区建设，大力发展乡村旅游业，目前AAA级景区已成功通过国家验收，开创了我县A级旅游景区创建的先河。";
+                b1.style.backgroundColor = chosen_color;
+                break;
+            case 2:
+                text.innerText = "金堂县是成都准一线城市，也是农业大县。三溪镇作为金堂的地理标志，从一九三七年继承当地产业开始，已有近八十年的种植历史，曾作为国务院定点采购特供果，八十年代中期生产的红酒，大量出口俄罗斯，经济效益高，农民获得可观收入，之后由于品质问题转型进行产业发展。1996年金堂三溪镇被中国柑桔研究所誉为“中国脐橙第一乡”，经过近10多年的选育改良，三溪脐橙更是味鲜色明。";
+                b2.style.backgroundColor = chosen_color;
+                break;
+            case 3:
+                text.innerText = "三溪位于龙泉山以东，共十一个行政村社区，九个村，分两块发展：全域东进，搞产业，引进了新能源等等二十多家工业企业（靠近淮口），还有四万多亩（其中三万多亩都种柑橘），种植面积产量全国数一数二，技术也很领先。产业基础在，所以发展一三产业联动，搞乡村旅游比如看油菜花顺便摘柑橘。现在主要还是商贩在农民处买导致价格就很低，如果搞游客采摘/电子商务就可以获得可观的收益";
+                b3.style.backgroundColor = chosen_color;
+                break;
+            case 4:
+                text.innerText = "生产条件有待进一步规范、提高，许多果园还没有达到统一标准，没有没有达到工业抓农业，现在一般都是农民自己管，这部分很难产生足够的品牌效益。现在有许多商标都是私人注册的，顾客很难判断好坏，政府着力把品牌建设起来，贴商标统一管理，这样一来大家都想买。\n" +
+                    "散户的管理设施不够先进，抗风险能力较差。由于当地独特的气候条件，他们的果子在冬天也可以成熟，达到错峰销售的目的，但是这也有不小的风险，万一霜落三天，果子就容易坏。\n" +
+                    "浦江做泡花柑，茶叶，猕猴桃全国都很有名。但三溪哪怕只做脐橙，在全国名气也不大。政府思考的原因是：没有原产的，基本都是引进，没办法打出名气。（待议）这可能关乎到一个“物以稀为贵”的问题，由于是引进的，所以其他地方可能也有。其实只要果子品质好，产生独特的优势，名气可以一点一点扬起来。\n" +
+                    "为了追求产量，某些果园会有农药，管理很重要，希望能够达到统一标准\n";
+                b4.style.backgroundColor = chosen_color;
+                break;
+            case 5:
+                text.innerText = "Q：为何不进行深加工？\n" +
+                    "A：不具备深加工所需的条件，没有成套的工业系统。但主要问题在于，进行深加工不一定能提高农民的收入，三溪镇的水果每年都能卖光，橙子不比葡萄，橙子单卖鲜果的收益比深加工来的高，果汁无法卖得像葡萄酒那么贵，保鲜难度比葡萄酒大得多。而且很多产业用于深加工一般是劣果，三溪镇的水果品质都较高，劣果少，少量不合格的劣果会运到外地进行深加工。\n" +
+                    "Q：为何产业化推进缓慢，有没有好的解决方法？\n" +
+                    "A：这个主要跟农民的意愿有关，各家各户有各自的想法，要慢慢沟通，只能一步一步推进，不能一蹴而就。\n";
+                b5.style.backgroundColor = chosen_color;
+                break;
         }
     }
+
+    choose(1);
 </script>
 </body>
 </html>
