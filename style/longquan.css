@@ -94,10 +94,23 @@
     margin: 10px auto;
 }
 
+.img-right{
+    max-width: 500px;
+    float: right;
+    margin: 10px auto;
+}
+
 .caifang{
     background-color: #eeeeee;
     border: aqua dashed 3px;
 }
 .phone{
     font-size: 30px;
+}
+.font-left{
+    text-align: left;
+}
+
+p{
+    text-indent: 2em;
 }
