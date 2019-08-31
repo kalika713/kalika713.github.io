@@ -110,10 +110,11 @@
 }
 
 .block{
-    display: block;
+    display: inline;
 }
 
 .image2{
     margin: 20px auto;
     border: darkseagreen 2px dashed;
 }
+

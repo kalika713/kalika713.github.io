@@ -11,6 +11,11 @@
     margin-top: 10px;
     font-size: large;
 }
+.middle{
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
 
 .head{
     text-align: center;
@@ -43,7 +48,7 @@
 }
 
 #contentbg{
-    background:#BFDFFF;
+    /*background:#BFDFFF;*/
 }
 
 #show{
@@ -72,4 +77,27 @@
 .qa img{
     float: left;
     margin: 1px 5px 5px 1px
+}
+
+.left{
+    float: left;
+    margin: 10px auto;
+}
+
+.right{
+    float: right;
+}
+
+.img-left{
+    max-width: 500px;
+    float: left;
+    margin: 10px auto;
+}
+
+.caifang{
+    background-color: #eeeeee;
+    border: aqua dashed 3px;
+}
+.phone{
+    font-size: 30px;
 }
