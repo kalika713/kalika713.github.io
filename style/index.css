@@ -129,12 +129,12 @@
 	}
 #show{
 	width:1000px;
-	height:300px;
+	height:480px;
 	}
 #listshow{
 	visibility:hidden;
 	width:100%;
-	height:300px;
+	height:480px;
 	overflow:hidden;
   }
 #content{
